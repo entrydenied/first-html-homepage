@@ -8,7 +8,7 @@ body {
 
   .button {
     background: #3882f6;
-    border: 1px solid #3882f6;
+    border: 1px solid white;
     padding: 8px 16px;
     border-radius: 8px;
     color: white;
@@ -131,4 +131,19 @@ a {
 .body-3 {
     height: 300px;
     padding: 40px 300px;
+    color: white;
+}
+
+.box {
+    height: 150px;
+    width: auto;
+    padding: 20px 16px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    
+}
+
+.left .above-text {
+    color: white;
 }
