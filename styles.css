@@ -71,6 +71,11 @@ a {
     font-size: 48px;
 }
 
+.left .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .bottom .left {
     display: flex;
     gap: 4px;
