@@ -5,22 +5,24 @@ body {
 
 .header {
     height: 300px;
-    background: #1F2937;
-    color: white;
-
 }
 
 .footer {
-    background: #1F2937;
-    color: white;
     height: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.header,
+.footer {
+    background: #1F2937;
+    color: white;
+}
+
 .top {
     display: flex;
+    flex-direction: row;
 }
 
 .top .right {
