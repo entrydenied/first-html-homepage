@@ -8,7 +8,7 @@ body {
 
   .button {
     background: #3882f6;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 8px 16px;
     border-radius: 8px;
     color: white;
@@ -151,3 +151,17 @@ a {
     font-weight: bold;
 }
 
+.box .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.box .left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
