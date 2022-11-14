@@ -101,3 +101,18 @@ a {
     justify-content: center;
     gap: 52px;
 }
+
+/* body-2 */
+
+
+.body-2 {
+    color: #e5e7eb;
+}
+
+
+/* body-3 */
+
+.body-3 {
+    height: 250px;
+    padding: 40px 300px;
+}
