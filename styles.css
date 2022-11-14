@@ -21,7 +21,7 @@ body {
 /* header & footer */
 
 .header {
-    height: 400px;
+    height: 450px;
     padding: 40px 300px;
 }
 
@@ -87,7 +87,7 @@ a {
 /* body-1 */
 
 .body-1 {
-    height: 350px;
+    height: 400px;
     padding: 40px 300px;
     text-align: center;
 }
@@ -108,12 +108,14 @@ a {
 .body-2 {
     background-color: #e5e7eb;
     text-align: center;
+    height: 400px;
+    padding: 40px 300px;
 }
 
 
 /* body-3 */
 
 .body-3 {
-    height: 250px;
+    height: 300px;
     padding: 40px 300px;
 }
