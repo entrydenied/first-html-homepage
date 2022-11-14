@@ -92,7 +92,7 @@ a {
     text-align: center;
 }
 
-.above-text {
+.body-1 .above-text {
     margin-bottom: 32px;
     font-size: 36px;
     font-weight: bold;
@@ -141,9 +141,13 @@ a {
     margin-top: 50px;
     border-radius: 8px;
     background-color: #3882f6;
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .left .above-text {
     color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
+
