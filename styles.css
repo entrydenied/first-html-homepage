@@ -4,8 +4,31 @@ body {
   }
 
 .header {
-    height: 72px;
-    width: auto;
-    background: darkmagenta;
+    height: 300px;
+    background: #1F2937;
     color: white;
+
 }
+
+.footer {
+    background: #1F2937;
+    color: white;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+}
+
+.top .right {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
