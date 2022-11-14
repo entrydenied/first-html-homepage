@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+.header {
+    height: 72px;
+    width: auto;
+    background: darkmagenta;
+    color: white;
+}
