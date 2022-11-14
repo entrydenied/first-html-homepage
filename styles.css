@@ -43,10 +43,6 @@ body {
     display: flex;
 }
 
-.top .left {
-    display: flex;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -68,6 +64,11 @@ a {
 .upper-section {
     font-weight: bolder;
     font-size: 48px;
+}
+
+.bottom .left {
+    display: flex;
+    gap: 10px;
 }
 
 /* body-1 */
