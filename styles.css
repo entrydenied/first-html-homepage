@@ -1,8 +1,18 @@
+/* general css */
+
 body {
     display: flex;
     flex-direction: column;
     font-family: Noto Sans, sans-serif;
   }
+
+  .button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+}
 
 /* header & footer */
 
@@ -33,6 +43,10 @@ body {
     display: flex;
 }
 
+.top .left {
+    display: flex;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -56,17 +70,20 @@ a {
     font-size: 48px;
 }
 
-.button {
-    background: royalblue;
-    border: 1px solid royalblue;
-    padding: 8px 16px;
-    border-radius: 8px;
-    color: white;
-}
-
 /* body-1 */
 
 .body-1 {
-    height: 400px;
+    height: 350px;
     padding: 40px 300px;
+    text-align: center;
+}
+
+.above-text {
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
