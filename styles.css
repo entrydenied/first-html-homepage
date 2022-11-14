@@ -4,6 +4,8 @@ body {
     font-family: Noto Sans, sans-serif;
   }
 
+/* header & footer */
+
 .header {
     height: 400px;
     padding: 40px 300px;
@@ -54,3 +56,17 @@ a {
     font-size: 48px;
 }
 
+.button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+}
+
+/* body-1 */
+
+.body-1 {
+    height: 400px;
+    padding: 40px 300px;
+}
