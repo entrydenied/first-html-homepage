@@ -12,6 +12,10 @@ body {
     padding: 8px 16px;
     border-radius: 8px;
     color: white;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 /* header & footer */
@@ -68,7 +72,8 @@ a {
 
 .bottom .left {
     display: flex;
-    gap: 10px;
+    gap: 4px;
+    flex-direction: column;
 }
 
 /* body-1 */
